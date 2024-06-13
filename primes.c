@@ -4,7 +4,9 @@
 
 int main(int argc, char *argv[]){ 
   /*
-    from command line, primes n, where n is an integer will produce the list of all primes less than     n and write them in file primes.txt, it taks 0.95 sec  on Macbook Air M1 for n = 50_000_000 */
+  Erasthotenes sieve for primes, no optimization
+  from command line, primes n, where n is an integer will produce the list of all primes less than     
+  n and write them in file primes.txt, it taks 0.95 sec  on Macbook Air M1 for n = 50_000_000 */
   FILE *primes;
   int ARRAY_SIZE = atoi(argv[1]);
   int *sieve;
